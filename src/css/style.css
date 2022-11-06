@@ -1,0 +1,104 @@
+@import url(normalize.css);
+@import url(reset.css);
+/* line 4, C:/Users/mrsfl/Desktop/Landing Pasta/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 7, C:/Users/mrsfl/Desktop/Landing Pasta/src/sass/style.sass */
+.container {
+  max-width: 1180px;
+  margin: 0;
+  padding: 0 10px;
+}
+
+/* line 14, C:/Users/mrsfl/Desktop/Landing Pasta/src/sass/style.sass */
+body {
+  background-image: url(../img/bgr.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 22, C:/Users/mrsfl/Desktop/Landing Pasta/src/sass/style.sass */
+.header__inner {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* line 27, C:/Users/mrsfl/Desktop/Landing Pasta/src/sass/style.sass */
+.header__menu {
+  padding-left: 380px;
+}
+
+/* line 32, C:/Users/mrsfl/Desktop/Landing Pasta/src/sass/style.sass */
+.logo {
+  padding-left: 432px;
+  padding-top: 34px;
+  margin-left: 0px;
+}
+
+/* line 39, C:/Users/mrsfl/Desktop/Landing Pasta/src/sass/style.sass */
+.menu__list {
+  display: flex;
+}
+
+/* line 45, C:/Users/mrsfl/Desktop/Landing Pasta/src/sass/style.sass */
+.menu__items:last-child {
+  margin-right: 0px;
+}
+
+/* line 50, C:/Users/mrsfl/Desktop/Landing Pasta/src/sass/style.sass */
+.menu__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  justify-content: space-between;
+  display: flex;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+  top: 62px;
+  margin-right: 362px;
+  margin: 15px;
+  white-space: nowrap;
+}
+
+/* line 63, C:/Users/mrsfl/Desktop/Landing Pasta/src/sass/style.sass */
+.menu__list {
+  list-style-type: none;
+  display: inline-flex;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+/* line 69, C:/Users/mrsfl/Desktop/Landing Pasta/src/sass/style.sass */
+h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 112px;
+  color: #FFFFFF;
+  position: absolute;
+  width: 916px;
+  height: 113px;
+  left: 502px;
+  top: 300px;
+}
+
+/* line 83, C:/Users/mrsfl/Desktop/Landing Pasta/src/sass/style.sass */
+p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  position: absolute;
+  width: 803px;
+  height: 28px;
+  left: 559px;
+  top: 413px;
+}
+
+/*# sourceMappingURL=style.css.map */
